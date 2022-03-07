@@ -1,0 +1,3918 @@
+{
+	"info": {
+		"_postman_id": "5f505a8a-c807-42ac-a683-5f6aa8713024",
+		"name": "Sandbox",
+		"description": "Contact Support:\n Name: Contact",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "Cashout",
+					"item": [
+						{
+							"name": "To Check Available Balance.",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/Cashout/CheckAvailableBalance?app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Cashout",
+										"CheckAvailableBalance"
+									],
+									"query": [
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								},
+								"description": "Sample request:\r\n            \r\n    POST /CheckAvailableBalance\r\n    {\r\n       \"app_id\": \"your_app_id\",\r\n       \"app_key\": \"your_app_key\",\r\n      \r\n    }"
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CheckAvailableBalance?app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CheckAvailableBalance"
+											],
+											"query": [
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": -79983492,\n \"status_message\": \"qui incididunt pariatur amet fugiat\",\n \"available_Balance\": -43929651.0603123\n}"
+								},
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CheckAvailableBalance?app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CheckAvailableBalance"
+											],
+											"query": [
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": -79983492,\n \"status_message\": \"qui incididunt pariatur amet fugiat\",\n \"available_Balance\": -43929651.0603123\n}"
+								},
+								{
+									"name": "Bad Request",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CheckAvailableBalance?app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CheckAvailableBalance"
+											],
+											"query": [
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CheckAvailableBalance?app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CheckAvailableBalance"
+											],
+											"query": [
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CheckAvailableBalance?app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CheckAvailableBalance"
+											],
+											"query": [
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Method Not Allowed",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CheckAvailableBalance?app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CheckAvailableBalance"
+											],
+											"query": [
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Method Not Allowed",
+									"code": 405,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								}
+							]
+						},
+						{
+							"name": "To Create Cashout Transaction.",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/Cashout/CreateCashoutTrans?transaction_date=2021-03-29&expiry_date=2021-04-29&transaction_type=local&Payment_mode=MMT&payee_name=MoneyFex Payee&payee_email=email@moneyfex.com&payee_mobile=string&recipient_name=310320201008&recipient_email=string&recipient_mobile=string&Recipient_ID_type=string&Recipient_ID_number=string&trans_currency=string&trans_amount=12.12&city_name=string&Bank_name=string&bank_branch_sort_code=string&Bank_account_no=string&Bank_account_title=string&merch_trans_ref_no=string&Narration=string&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Cashout",
+										"CreateCashoutTrans"
+									],
+									"query": [
+										{
+											"key": "transaction_date",
+											"value": "2021-03-29"
+										},
+										{
+											"key": "expiry_date",
+											"value": "2021-04-29"
+										},
+										{
+											"key": "transaction_type",
+											"value": "local"
+										},
+										{
+											"key": "Payment_mode",
+											"value": "MMT"
+										},
+										{
+											"key": "payee_name",
+											"value": "MoneyFex Payee"
+										},
+										{
+											"key": "payee_email",
+											"value": "email@moneyfex.com"
+										},
+										{
+											"key": "payee_mobile",
+											"value": "string"
+										},
+										{
+											"key": "recipient_name",
+											"value": "310320201008"
+										},
+										{
+											"key": "recipient_email",
+											"value": "string"
+										},
+										{
+											"key": "recipient_mobile",
+											"value": "string"
+										},
+										{
+											"key": "Recipient_ID_type",
+											"value": "string"
+										},
+										{
+											"key": "Recipient_ID_number",
+											"value": "string"
+										},
+										{
+											"key": "trans_currency",
+											"value": "string"
+										},
+										{
+											"key": "trans_amount",
+											"value": "12.12"
+										},
+										{
+											"key": "city_name",
+											"value": "string"
+										},
+										{
+											"key": "Bank_name",
+											"value": "string"
+										},
+										{
+											"key": "bank_branch_sort_code",
+											"value": "string"
+										},
+										{
+											"key": "Bank_account_no",
+											"value": "string"
+										},
+										{
+											"key": "Bank_account_title",
+											"value": "string"
+										},
+										{
+											"key": "merch_trans_ref_no",
+											"value": "string"
+										},
+										{
+											"key": "Narration",
+											"value": "string"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								},
+								"description": "Sample request:\r\n\r\n    POST /CreateCashoutTrans\r\n     {\r\n     \r\n    \"app_id\": \"your_app_id\",\r\n     \"app_key\": \"your_app_key\",\r\n     \"transaction_date\":\"2021-03-29 \",\r\n     \"expiry_date\": \"2021-04-29 \",\r\n     \"transaction_type\": \"local\",\r\n     \"payment_mode\": \"MMT\",\r\n     \"payee_name\": \"MoneyFex Payee\",\r\n     \"payee_email\": \"email@moneyfex.com\",\r\n     \"payee_mobile\": \"string\",\r\n     \"recipient_name\": \"310320201008\",\r\n     \"recipient_email\": \"string\",\r\n     \"recipient_mobile\": \"string\",\r\n     \"recipient_ID_type\": \"string\",\r\n     \"recipient_ID_number\": \"string\",\r\n     \"trans_currency\": \"string\",\r\n     \"trans_amount\": 12,\r\n     \"city_name\": \"string\",\r\n     \"bank_name\": \"string\",\r\n     \"bank_branch_sort_code\": \"string\",\r\n     \"bank_account_no\": \"string\",\r\n     \"bank_account_title\": \"string\",\r\n     \"merch_trans_ref_no\": \"string\",\r\n     \"narration\": \"string\",   \r\n    \r\n     }"
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CreateCashoutTrans?transaction_date=2021-03-29&expiry_date=2021-04-29&transaction_type=local&Payment_mode=MMT&payee_name=MoneyFex Payee&payee_email=email@moneyfex.com&payee_mobile=string&recipient_name=310320201008&recipient_email=string&recipient_mobile=string&Recipient_ID_type=string&Recipient_ID_number=string&trans_currency=string&trans_amount=12.12&city_name=string&Bank_name=string&bank_branch_sort_code=string&Bank_account_no=string&Bank_account_title=string&merch_trans_ref_no=string&Narration=string&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CreateCashoutTrans"
+											],
+											"query": [
+												{
+													"key": "transaction_date",
+													"value": "2021-03-29"
+												},
+												{
+													"key": "expiry_date",
+													"value": "2021-04-29"
+												},
+												{
+													"key": "transaction_type",
+													"value": "local"
+												},
+												{
+													"key": "Payment_mode",
+													"value": "MMT"
+												},
+												{
+													"key": "payee_name",
+													"value": "MoneyFex Payee"
+												},
+												{
+													"key": "payee_email",
+													"value": "email@moneyfex.com"
+												},
+												{
+													"key": "payee_mobile",
+													"value": "string"
+												},
+												{
+													"key": "recipient_name",
+													"value": "310320201008"
+												},
+												{
+													"key": "recipient_email",
+													"value": "string"
+												},
+												{
+													"key": "recipient_mobile",
+													"value": "string"
+												},
+												{
+													"key": "Recipient_ID_type",
+													"value": "string"
+												},
+												{
+													"key": "Recipient_ID_number",
+													"value": "string"
+												},
+												{
+													"key": "trans_currency",
+													"value": "string"
+												},
+												{
+													"key": "trans_amount",
+													"value": "12.12"
+												},
+												{
+													"key": "city_name",
+													"value": "string"
+												},
+												{
+													"key": "Bank_name",
+													"value": "string"
+												},
+												{
+													"key": "bank_branch_sort_code",
+													"value": "string"
+												},
+												{
+													"key": "Bank_account_no",
+													"value": "string"
+												},
+												{
+													"key": "Bank_account_title",
+													"value": "string"
+												},
+												{
+													"key": "merch_trans_ref_no",
+													"value": "string"
+												},
+												{
+													"key": "Narration",
+													"value": "string"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": 78657381,\n \"status_message\": \"occaecat nulla irure\",\n \"trans_ref_no\": \"Excepteur commodo \",\n \"signature\": \"eu quis\"\n}"
+								},
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CreateCashoutTrans?transaction_date=2021-03-29&expiry_date=2021-04-29&transaction_type=local&Payment_mode=MMT&payee_name=MoneyFex Payee&payee_email=email@moneyfex.com&payee_mobile=string&recipient_name=310320201008&recipient_email=string&recipient_mobile=string&Recipient_ID_type=string&Recipient_ID_number=string&trans_currency=string&trans_amount=12.12&city_name=string&Bank_name=string&bank_branch_sort_code=string&Bank_account_no=string&Bank_account_title=string&merch_trans_ref_no=string&Narration=string&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CreateCashoutTrans"
+											],
+											"query": [
+												{
+													"key": "transaction_date",
+													"value": "2021-03-29"
+												},
+												{
+													"key": "expiry_date",
+													"value": "2021-04-29"
+												},
+												{
+													"key": "transaction_type",
+													"value": "local"
+												},
+												{
+													"key": "Payment_mode",
+													"value": "MMT"
+												},
+												{
+													"key": "payee_name",
+													"value": "MoneyFex Payee"
+												},
+												{
+													"key": "payee_email",
+													"value": "email@moneyfex.com"
+												},
+												{
+													"key": "payee_mobile",
+													"value": "string"
+												},
+												{
+													"key": "recipient_name",
+													"value": "310320201008"
+												},
+												{
+													"key": "recipient_email",
+													"value": "string"
+												},
+												{
+													"key": "recipient_mobile",
+													"value": "string"
+												},
+												{
+													"key": "Recipient_ID_type",
+													"value": "string"
+												},
+												{
+													"key": "Recipient_ID_number",
+													"value": "string"
+												},
+												{
+													"key": "trans_currency",
+													"value": "string"
+												},
+												{
+													"key": "trans_amount",
+													"value": "12.12"
+												},
+												{
+													"key": "city_name",
+													"value": "string"
+												},
+												{
+													"key": "Bank_name",
+													"value": "string"
+												},
+												{
+													"key": "bank_branch_sort_code",
+													"value": "string"
+												},
+												{
+													"key": "Bank_account_no",
+													"value": "string"
+												},
+												{
+													"key": "Bank_account_title",
+													"value": "string"
+												},
+												{
+													"key": "merch_trans_ref_no",
+													"value": "string"
+												},
+												{
+													"key": "Narration",
+													"value": "string"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": 78657381,\n \"status_message\": \"occaecat nulla irure\",\n \"trans_ref_no\": \"Excepteur commodo \",\n \"signature\": \"eu quis\"\n}"
+								},
+								{
+									"name": "Bad Request",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CreateCashoutTrans?transaction_date=2021-03-29&expiry_date=2021-04-29&transaction_type=local&Payment_mode=MMT&payee_name=MoneyFex Payee&payee_email=email@moneyfex.com&payee_mobile=string&recipient_name=310320201008&recipient_email=string&recipient_mobile=string&Recipient_ID_type=string&Recipient_ID_number=string&trans_currency=string&trans_amount=12.12&city_name=string&Bank_name=string&bank_branch_sort_code=string&Bank_account_no=string&Bank_account_title=string&merch_trans_ref_no=string&Narration=string&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CreateCashoutTrans"
+											],
+											"query": [
+												{
+													"key": "transaction_date",
+													"value": "2021-03-29"
+												},
+												{
+													"key": "expiry_date",
+													"value": "2021-04-29"
+												},
+												{
+													"key": "transaction_type",
+													"value": "local"
+												},
+												{
+													"key": "Payment_mode",
+													"value": "MMT"
+												},
+												{
+													"key": "payee_name",
+													"value": "MoneyFex Payee"
+												},
+												{
+													"key": "payee_email",
+													"value": "email@moneyfex.com"
+												},
+												{
+													"key": "payee_mobile",
+													"value": "string"
+												},
+												{
+													"key": "recipient_name",
+													"value": "310320201008"
+												},
+												{
+													"key": "recipient_email",
+													"value": "string"
+												},
+												{
+													"key": "recipient_mobile",
+													"value": "string"
+												},
+												{
+													"key": "Recipient_ID_type",
+													"value": "string"
+												},
+												{
+													"key": "Recipient_ID_number",
+													"value": "string"
+												},
+												{
+													"key": "trans_currency",
+													"value": "string"
+												},
+												{
+													"key": "trans_amount",
+													"value": "12.12"
+												},
+												{
+													"key": "city_name",
+													"value": "string"
+												},
+												{
+													"key": "Bank_name",
+													"value": "string"
+												},
+												{
+													"key": "bank_branch_sort_code",
+													"value": "string"
+												},
+												{
+													"key": "Bank_account_no",
+													"value": "string"
+												},
+												{
+													"key": "Bank_account_title",
+													"value": "string"
+												},
+												{
+													"key": "merch_trans_ref_no",
+													"value": "string"
+												},
+												{
+													"key": "Narration",
+													"value": "string"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CreateCashoutTrans?transaction_date=2021-03-29&expiry_date=2021-04-29&transaction_type=local&Payment_mode=MMT&payee_name=MoneyFex Payee&payee_email=email@moneyfex.com&payee_mobile=string&recipient_name=310320201008&recipient_email=string&recipient_mobile=string&Recipient_ID_type=string&Recipient_ID_number=string&trans_currency=string&trans_amount=12.12&city_name=string&Bank_name=string&bank_branch_sort_code=string&Bank_account_no=string&Bank_account_title=string&merch_trans_ref_no=string&Narration=string&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CreateCashoutTrans"
+											],
+											"query": [
+												{
+													"key": "transaction_date",
+													"value": "2021-03-29"
+												},
+												{
+													"key": "expiry_date",
+													"value": "2021-04-29"
+												},
+												{
+													"key": "transaction_type",
+													"value": "local"
+												},
+												{
+													"key": "Payment_mode",
+													"value": "MMT"
+												},
+												{
+													"key": "payee_name",
+													"value": "MoneyFex Payee"
+												},
+												{
+													"key": "payee_email",
+													"value": "email@moneyfex.com"
+												},
+												{
+													"key": "payee_mobile",
+													"value": "string"
+												},
+												{
+													"key": "recipient_name",
+													"value": "310320201008"
+												},
+												{
+													"key": "recipient_email",
+													"value": "string"
+												},
+												{
+													"key": "recipient_mobile",
+													"value": "string"
+												},
+												{
+													"key": "Recipient_ID_type",
+													"value": "string"
+												},
+												{
+													"key": "Recipient_ID_number",
+													"value": "string"
+												},
+												{
+													"key": "trans_currency",
+													"value": "string"
+												},
+												{
+													"key": "trans_amount",
+													"value": "12.12"
+												},
+												{
+													"key": "city_name",
+													"value": "string"
+												},
+												{
+													"key": "Bank_name",
+													"value": "string"
+												},
+												{
+													"key": "bank_branch_sort_code",
+													"value": "string"
+												},
+												{
+													"key": "Bank_account_no",
+													"value": "string"
+												},
+												{
+													"key": "Bank_account_title",
+													"value": "string"
+												},
+												{
+													"key": "merch_trans_ref_no",
+													"value": "string"
+												},
+												{
+													"key": "Narration",
+													"value": "string"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CreateCashoutTrans?transaction_date=2021-03-29&expiry_date=2021-04-29&transaction_type=local&Payment_mode=MMT&payee_name=MoneyFex Payee&payee_email=email@moneyfex.com&payee_mobile=string&recipient_name=310320201008&recipient_email=string&recipient_mobile=string&Recipient_ID_type=string&Recipient_ID_number=string&trans_currency=string&trans_amount=12.12&city_name=string&Bank_name=string&bank_branch_sort_code=string&Bank_account_no=string&Bank_account_title=string&merch_trans_ref_no=string&Narration=string&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CreateCashoutTrans"
+											],
+											"query": [
+												{
+													"key": "transaction_date",
+													"value": "2021-03-29"
+												},
+												{
+													"key": "expiry_date",
+													"value": "2021-04-29"
+												},
+												{
+													"key": "transaction_type",
+													"value": "local"
+												},
+												{
+													"key": "Payment_mode",
+													"value": "MMT"
+												},
+												{
+													"key": "payee_name",
+													"value": "MoneyFex Payee"
+												},
+												{
+													"key": "payee_email",
+													"value": "email@moneyfex.com"
+												},
+												{
+													"key": "payee_mobile",
+													"value": "string"
+												},
+												{
+													"key": "recipient_name",
+													"value": "310320201008"
+												},
+												{
+													"key": "recipient_email",
+													"value": "string"
+												},
+												{
+													"key": "recipient_mobile",
+													"value": "string"
+												},
+												{
+													"key": "Recipient_ID_type",
+													"value": "string"
+												},
+												{
+													"key": "Recipient_ID_number",
+													"value": "string"
+												},
+												{
+													"key": "trans_currency",
+													"value": "string"
+												},
+												{
+													"key": "trans_amount",
+													"value": "12.12"
+												},
+												{
+													"key": "city_name",
+													"value": "string"
+												},
+												{
+													"key": "Bank_name",
+													"value": "string"
+												},
+												{
+													"key": "bank_branch_sort_code",
+													"value": "string"
+												},
+												{
+													"key": "Bank_account_no",
+													"value": "string"
+												},
+												{
+													"key": "Bank_account_title",
+													"value": "string"
+												},
+												{
+													"key": "merch_trans_ref_no",
+													"value": "string"
+												},
+												{
+													"key": "Narration",
+													"value": "string"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Method Not Allowed",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CreateCashoutTrans?transaction_date=2021-03-29&expiry_date=2021-04-29&transaction_type=local&Payment_mode=MMT&payee_name=MoneyFex Payee&payee_email=email@moneyfex.com&payee_mobile=string&recipient_name=310320201008&recipient_email=string&recipient_mobile=string&Recipient_ID_type=string&Recipient_ID_number=string&trans_currency=string&trans_amount=12.12&city_name=string&Bank_name=string&bank_branch_sort_code=string&Bank_account_no=string&Bank_account_title=string&merch_trans_ref_no=string&Narration=string&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CreateCashoutTrans"
+											],
+											"query": [
+												{
+													"key": "transaction_date",
+													"value": "2021-03-29"
+												},
+												{
+													"key": "expiry_date",
+													"value": "2021-04-29"
+												},
+												{
+													"key": "transaction_type",
+													"value": "local"
+												},
+												{
+													"key": "Payment_mode",
+													"value": "MMT"
+												},
+												{
+													"key": "payee_name",
+													"value": "MoneyFex Payee"
+												},
+												{
+													"key": "payee_email",
+													"value": "email@moneyfex.com"
+												},
+												{
+													"key": "payee_mobile",
+													"value": "string"
+												},
+												{
+													"key": "recipient_name",
+													"value": "310320201008"
+												},
+												{
+													"key": "recipient_email",
+													"value": "string"
+												},
+												{
+													"key": "recipient_mobile",
+													"value": "string"
+												},
+												{
+													"key": "Recipient_ID_type",
+													"value": "string"
+												},
+												{
+													"key": "Recipient_ID_number",
+													"value": "string"
+												},
+												{
+													"key": "trans_currency",
+													"value": "string"
+												},
+												{
+													"key": "trans_amount",
+													"value": "12.12"
+												},
+												{
+													"key": "city_name",
+													"value": "string"
+												},
+												{
+													"key": "Bank_name",
+													"value": "string"
+												},
+												{
+													"key": "bank_branch_sort_code",
+													"value": "string"
+												},
+												{
+													"key": "Bank_account_no",
+													"value": "string"
+												},
+												{
+													"key": "Bank_account_title",
+													"value": "string"
+												},
+												{
+													"key": "merch_trans_ref_no",
+													"value": "string"
+												},
+												{
+													"key": "Narration",
+													"value": "string"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Method Not Allowed",
+									"code": 405,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								}
+							]
+						},
+						{
+							"name": "To Get Transaction Status.",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/Cashout/GetTransStatus?merch_trans_ref_no=310320201008&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Cashout",
+										"GetTransStatus"
+									],
+									"query": [
+										{
+											"key": "merch_trans_ref_no",
+											"value": "310320201008"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								},
+								"description": "Sample request:\r\n            \r\n    POST /GetTransStatus\r\n    {\r\n       \"app_id\": \"your_app_id\",\r\n       \"app_key\": \"your_app_key\",\r\n       \"merch_trans_ref_no\": \"310320201008\",\r\n      \r\n    }"
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/GetTransStatus?merch_trans_ref_no=310320201008&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"GetTransStatus"
+											],
+											"query": [
+												{
+													"key": "merch_trans_ref_no",
+													"value": "310320201008"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": -97638137,\n \"status_message\": \"esse dolore\",\n \"payment_date\": \"tempor\",\n \"recipient_name\": \"in ea\",\n \"recipient_mobile\": \"eu ipsum voluptate eiusmod\",\n \"recipient_id_type\": \"in esse officia laboris\",\n \"recipient_id_number\": \"ipsum Duis eiusmod dolor\",\n \"bank_account_no\": \"incididunt laborum dolor\",\n \"bank_account_title\": \"elit anim occaecat officia\",\n \"recipient_mobile_operator\": \"eu\",\n \"trans_ref_no\": \"ea laboris non magna\"\n}"
+								},
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/GetTransStatus?merch_trans_ref_no=310320201008&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"GetTransStatus"
+											],
+											"query": [
+												{
+													"key": "merch_trans_ref_no",
+													"value": "310320201008"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": -97638137,\n \"status_message\": \"esse dolore\",\n \"payment_date\": \"tempor\",\n \"recipient_name\": \"in ea\",\n \"recipient_mobile\": \"eu ipsum voluptate eiusmod\",\n \"recipient_id_type\": \"in esse officia laboris\",\n \"recipient_id_number\": \"ipsum Duis eiusmod dolor\",\n \"bank_account_no\": \"incididunt laborum dolor\",\n \"bank_account_title\": \"elit anim occaecat officia\",\n \"recipient_mobile_operator\": \"eu\",\n \"trans_ref_no\": \"ea laboris non magna\"\n}"
+								},
+								{
+									"name": "Bad Request",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/GetTransStatus?merch_trans_ref_no=310320201008&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"GetTransStatus"
+											],
+											"query": [
+												{
+													"key": "merch_trans_ref_no",
+													"value": "310320201008"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/GetTransStatus?merch_trans_ref_no=310320201008&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"GetTransStatus"
+											],
+											"query": [
+												{
+													"key": "merch_trans_ref_no",
+													"value": "310320201008"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/GetTransStatus?merch_trans_ref_no=310320201008&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"GetTransStatus"
+											],
+											"query": [
+												{
+													"key": "merch_trans_ref_no",
+													"value": "310320201008"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Method Not Allowed",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/GetTransStatus?merch_trans_ref_no=310320201008&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"GetTransStatus"
+											],
+											"query": [
+												{
+													"key": "merch_trans_ref_no",
+													"value": "310320201008"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Method Not Allowed",
+									"code": 405,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								}
+							]
+						},
+						{
+							"name": "To Get Transaction List.",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/Cashout/GetTransList?transaction_date=2021-03-29&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Cashout",
+										"GetTransList"
+									],
+									"query": [
+										{
+											"key": "transaction_date",
+											"value": "2021-03-29"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								},
+								"description": "Sample request:\r\n            \r\n    POST /GetTransList\r\n    {\r\n       \"app_id\": \"your_app_id\",\r\n       \"app_key\": \"your_app_key\",,\r\n       \"transaction_date\": \"2021-03-29 \"\r\n      \r\n    }"
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/GetTransList?transaction_date=2021-03-29&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"GetTransList"
+											],
+											"query": [
+												{
+													"key": "transaction_date",
+													"value": "2021-03-29"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": -82967857,\n \"status_message\": \"sit aliqua incididunt aliquip\"\n}"
+								},
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/GetTransList?transaction_date=2021-03-29&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"GetTransList"
+											],
+											"query": [
+												{
+													"key": "transaction_date",
+													"value": "2021-03-29"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": -82967857,\n \"status_message\": \"sit aliqua incididunt aliquip\"\n}"
+								},
+								{
+									"name": "Bad Request",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/GetTransList?transaction_date=2021-03-29&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"GetTransList"
+											],
+											"query": [
+												{
+													"key": "transaction_date",
+													"value": "2021-03-29"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/GetTransList?transaction_date=2021-03-29&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"GetTransList"
+											],
+											"query": [
+												{
+													"key": "transaction_date",
+													"value": "2021-03-29"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/GetTransList?transaction_date=2021-03-29&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"GetTransList"
+											],
+											"query": [
+												{
+													"key": "transaction_date",
+													"value": "2021-03-29"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Method Not Allowed",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/GetTransList?transaction_date=2021-03-29&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"GetTransList"
+											],
+											"query": [
+												{
+													"key": "transaction_date",
+													"value": "2021-03-29"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Method Not Allowed",
+									"code": 405,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								}
+							]
+						},
+						{
+							"name": "To Cashout Reversal.",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/Cashout/CashoutReversal?merch_trans_ref_no=310320201008&Reason=string&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Cashout",
+										"CashoutReversal"
+									],
+									"query": [
+										{
+											"key": "merch_trans_ref_no",
+											"value": "310320201008"
+										},
+										{
+											"key": "Reason",
+											"value": "string"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								},
+								"description": "Sample request:\r\n            \r\n    POST /CashoutReversal\r\n    {\r\n       \"app_id\": \"your_app_id\",\r\n       \"app_key\": \"your_app_key\",\r\n       \"merch_trans_ref_no\": \"310320201008\",\r\n       \"Reason\": \"string\",\r\n      \r\n    }"
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CashoutReversal?merch_trans_ref_no=310320201008&Reason=string&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CashoutReversal"
+											],
+											"query": [
+												{
+													"key": "merch_trans_ref_no",
+													"value": "310320201008"
+												},
+												{
+													"key": "Reason",
+													"value": "string"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": -96022149,\n \"status_message\": \"ipsum culpa occaecat\",\n \"trans_ref_no\": \"in amet\",\n \"trans_currency\": \"nulla exercitation culpa minim\",\n \"trans_amount\": -20813485.023985118,\n \"transaction_date\": \"1978-11-29T04:36:57.479Z\",\n \"expiry_date\": \"1952-10-10T12:14:42.548Z\"\n}"
+								},
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CashoutReversal?merch_trans_ref_no=310320201008&Reason=string&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CashoutReversal"
+											],
+											"query": [
+												{
+													"key": "merch_trans_ref_no",
+													"value": "310320201008"
+												},
+												{
+													"key": "Reason",
+													"value": "string"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": -96022149,\n \"status_message\": \"ipsum culpa occaecat\",\n \"trans_ref_no\": \"in amet\",\n \"trans_currency\": \"nulla exercitation culpa minim\",\n \"trans_amount\": -20813485.023985118,\n \"transaction_date\": \"1978-11-29T04:36:57.479Z\",\n \"expiry_date\": \"1952-10-10T12:14:42.548Z\"\n}"
+								},
+								{
+									"name": "Bad Request",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CashoutReversal?merch_trans_ref_no=310320201008&Reason=string&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CashoutReversal"
+											],
+											"query": [
+												{
+													"key": "merch_trans_ref_no",
+													"value": "310320201008"
+												},
+												{
+													"key": "Reason",
+													"value": "string"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CashoutReversal?merch_trans_ref_no=310320201008&Reason=string&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CashoutReversal"
+											],
+											"query": [
+												{
+													"key": "merch_trans_ref_no",
+													"value": "310320201008"
+												},
+												{
+													"key": "Reason",
+													"value": "string"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CashoutReversal?merch_trans_ref_no=310320201008&Reason=string&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CashoutReversal"
+											],
+											"query": [
+												{
+													"key": "merch_trans_ref_no",
+													"value": "310320201008"
+												},
+												{
+													"key": "Reason",
+													"value": "string"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Method Not Allowed",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Cashout/CashoutReversal?merch_trans_ref_no=310320201008&Reason=string&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Cashout",
+												"CashoutReversal"
+											],
+											"query": [
+												{
+													"key": "merch_trans_ref_no",
+													"value": "310320201008"
+												},
+												{
+													"key": "Reason",
+													"value": "string"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Method Not Allowed",
+									"code": 405,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Mo Mo Collection",
+					"item": [
+						{
+							"name": "To create transaction for mobile money.",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/MoMoCollection/CreateMMPayment?client_timestamp=test&name=Umaid naeem&mobile_network=MTN&mobile=+233544697290&email=isaac@gmail.com&feetypecode=test&currency=GHS&amount=12.12&voucher_code=test&order_id=022720201116AM&order_desc=Demo Order testing&signature=test&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"MoMoCollection",
+										"CreateMMPayment"
+									],
+									"query": [
+										{
+											"key": "client_timestamp",
+											"value": "test"
+										},
+										{
+											"key": "name",
+											"value": "Umaid naeem"
+										},
+										{
+											"key": "mobile_network",
+											"value": "MTN"
+										},
+										{
+											"key": "mobile",
+											"value": "+233544697290"
+										},
+										{
+											"key": "email",
+											"value": "isaac@gmail.com"
+										},
+										{
+											"key": "feetypecode",
+											"value": "test"
+										},
+										{
+											"key": "currency",
+											"value": "GHS"
+										},
+										{
+											"key": "amount",
+											"value": "12.12"
+										},
+										{
+											"key": "voucher_code",
+											"value": "test"
+										},
+										{
+											"key": "order_id",
+											"value": "022720201116AM"
+										},
+										{
+											"key": "order_desc",
+											"value": "Demo Order testing"
+										},
+										{
+											"key": "signature",
+											"value": "test"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								},
+								"description": "Sample request:\r\n            \r\n    POST /CreateMMPayment\r\n    {\r\n       \"app_id\": \"your_app_id\",\r\n       \"app_key\": \"your_app_key\",              \r\n       \"client_timestamp\": \"test\",\r\n       \"name\": \"Umaid naeem\",\r\n       \"mobile_network\": \"MTN\",\r\n       \"mobile\": \"+233544697290\",\r\n       \"email\": \"isaac@gmail.com\",\r\n       \"feetypecode\": \"test\",\r\n       \"currency\": \"GHS\",\r\n       \"amount\": 12.12,\r\n       \"voucherCode\": \"test\",\r\n       \"signature\": \"test\",\r\n       \"order_id\": \"022720201116AM\",\r\n       \"order_desc\": \"Demo Order testing\"\r\n    }"
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/CreateMMPayment?client_timestamp=test&name=Umaid naeem&mobile_network=MTN&mobile=+233544697290&email=isaac@gmail.com&feetypecode=test&currency=GHS&amount=12.12&voucher_code=test&order_id=022720201116AM&order_desc=Demo Order testing&signature=test&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"CreateMMPayment"
+											],
+											"query": [
+												{
+													"key": "client_timestamp",
+													"value": "test"
+												},
+												{
+													"key": "name",
+													"value": "Umaid naeem"
+												},
+												{
+													"key": "mobile_network",
+													"value": "MTN"
+												},
+												{
+													"key": "mobile",
+													"value": "+233544697290"
+												},
+												{
+													"key": "email",
+													"value": "isaac@gmail.com"
+												},
+												{
+													"key": "feetypecode",
+													"value": "test"
+												},
+												{
+													"key": "currency",
+													"value": "GHS"
+												},
+												{
+													"key": "amount",
+													"value": "12.12"
+												},
+												{
+													"key": "voucher_code",
+													"value": "test"
+												},
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "order_desc",
+													"value": "Demo Order testing"
+												},
+												{
+													"key": "signature",
+													"value": "test"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": 98648138,\n \"status_message\": \"exercitation quis consequat\",\n \"trans_ref_no\": \"labore consequat\"\n}"
+								},
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/CreateMMPayment?client_timestamp=test&name=Umaid naeem&mobile_network=MTN&mobile=+233544697290&email=isaac@gmail.com&feetypecode=test&currency=GHS&amount=12.12&voucher_code=test&order_id=022720201116AM&order_desc=Demo Order testing&signature=test&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"CreateMMPayment"
+											],
+											"query": [
+												{
+													"key": "client_timestamp",
+													"value": "test"
+												},
+												{
+													"key": "name",
+													"value": "Umaid naeem"
+												},
+												{
+													"key": "mobile_network",
+													"value": "MTN"
+												},
+												{
+													"key": "mobile",
+													"value": "+233544697290"
+												},
+												{
+													"key": "email",
+													"value": "isaac@gmail.com"
+												},
+												{
+													"key": "feetypecode",
+													"value": "test"
+												},
+												{
+													"key": "currency",
+													"value": "GHS"
+												},
+												{
+													"key": "amount",
+													"value": "12.12"
+												},
+												{
+													"key": "voucher_code",
+													"value": "test"
+												},
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "order_desc",
+													"value": "Demo Order testing"
+												},
+												{
+													"key": "signature",
+													"value": "test"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": 98648138,\n \"status_message\": \"exercitation quis consequat\",\n \"trans_ref_no\": \"labore consequat\"\n}"
+								},
+								{
+									"name": "Bad Request",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/CreateMMPayment?client_timestamp=test&name=Umaid naeem&mobile_network=MTN&mobile=+233544697290&email=isaac@gmail.com&feetypecode=test&currency=GHS&amount=12.12&voucher_code=test&order_id=022720201116AM&order_desc=Demo Order testing&signature=test&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"CreateMMPayment"
+											],
+											"query": [
+												{
+													"key": "client_timestamp",
+													"value": "test"
+												},
+												{
+													"key": "name",
+													"value": "Umaid naeem"
+												},
+												{
+													"key": "mobile_network",
+													"value": "MTN"
+												},
+												{
+													"key": "mobile",
+													"value": "+233544697290"
+												},
+												{
+													"key": "email",
+													"value": "isaac@gmail.com"
+												},
+												{
+													"key": "feetypecode",
+													"value": "test"
+												},
+												{
+													"key": "currency",
+													"value": "GHS"
+												},
+												{
+													"key": "amount",
+													"value": "12.12"
+												},
+												{
+													"key": "voucher_code",
+													"value": "test"
+												},
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "order_desc",
+													"value": "Demo Order testing"
+												},
+												{
+													"key": "signature",
+													"value": "test"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/CreateMMPayment?client_timestamp=test&name=Umaid naeem&mobile_network=MTN&mobile=+233544697290&email=isaac@gmail.com&feetypecode=test&currency=GHS&amount=12.12&voucher_code=test&order_id=022720201116AM&order_desc=Demo Order testing&signature=test&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"CreateMMPayment"
+											],
+											"query": [
+												{
+													"key": "client_timestamp",
+													"value": "test"
+												},
+												{
+													"key": "name",
+													"value": "Umaid naeem"
+												},
+												{
+													"key": "mobile_network",
+													"value": "MTN"
+												},
+												{
+													"key": "mobile",
+													"value": "+233544697290"
+												},
+												{
+													"key": "email",
+													"value": "isaac@gmail.com"
+												},
+												{
+													"key": "feetypecode",
+													"value": "test"
+												},
+												{
+													"key": "currency",
+													"value": "GHS"
+												},
+												{
+													"key": "amount",
+													"value": "12.12"
+												},
+												{
+													"key": "voucher_code",
+													"value": "test"
+												},
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "order_desc",
+													"value": "Demo Order testing"
+												},
+												{
+													"key": "signature",
+													"value": "test"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/CreateMMPayment?client_timestamp=test&name=Umaid naeem&mobile_network=MTN&mobile=+233544697290&email=isaac@gmail.com&feetypecode=test&currency=GHS&amount=12.12&voucher_code=test&order_id=022720201116AM&order_desc=Demo Order testing&signature=test&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"CreateMMPayment"
+											],
+											"query": [
+												{
+													"key": "client_timestamp",
+													"value": "test"
+												},
+												{
+													"key": "name",
+													"value": "Umaid naeem"
+												},
+												{
+													"key": "mobile_network",
+													"value": "MTN"
+												},
+												{
+													"key": "mobile",
+													"value": "+233544697290"
+												},
+												{
+													"key": "email",
+													"value": "isaac@gmail.com"
+												},
+												{
+													"key": "feetypecode",
+													"value": "test"
+												},
+												{
+													"key": "currency",
+													"value": "GHS"
+												},
+												{
+													"key": "amount",
+													"value": "12.12"
+												},
+												{
+													"key": "voucher_code",
+													"value": "test"
+												},
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "order_desc",
+													"value": "Demo Order testing"
+												},
+												{
+													"key": "signature",
+													"value": "test"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Method Not Allowed",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/CreateMMPayment?client_timestamp=test&name=Umaid naeem&mobile_network=MTN&mobile=+233544697290&email=isaac@gmail.com&feetypecode=test&currency=GHS&amount=12.12&voucher_code=test&order_id=022720201116AM&order_desc=Demo Order testing&signature=test&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"CreateMMPayment"
+											],
+											"query": [
+												{
+													"key": "client_timestamp",
+													"value": "test"
+												},
+												{
+													"key": "name",
+													"value": "Umaid naeem"
+												},
+												{
+													"key": "mobile_network",
+													"value": "MTN"
+												},
+												{
+													"key": "mobile",
+													"value": "+233544697290"
+												},
+												{
+													"key": "email",
+													"value": "isaac@gmail.com"
+												},
+												{
+													"key": "feetypecode",
+													"value": "test"
+												},
+												{
+													"key": "currency",
+													"value": "GHS"
+												},
+												{
+													"key": "amount",
+													"value": "12.12"
+												},
+												{
+													"key": "voucher_code",
+													"value": "test"
+												},
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "order_desc",
+													"value": "Demo Order testing"
+												},
+												{
+													"key": "signature",
+													"value": "test"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Method Not Allowed",
+									"code": 405,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								}
+							]
+						},
+						{
+							"name": "To Get Invoice Status.",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/MoMoCollection/GetInvoiceStatus?order_id=022720201116AM&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"MoMoCollection",
+										"GetInvoiceStatus"
+									],
+									"query": [
+										{
+											"key": "order_id",
+											"value": "022720201116AM"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								},
+								"description": "Sample request:\r\n            \r\n    POST /GetInvoiceStatus\r\n    {\r\n       \"app_id\": \"your_app_id\",\r\n       \"app_key\": \"your_app_key\",\r\n       \"order_id\": \"022720201116AM\",        \r\n    }"
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/GetInvoiceStatus?order_id=022720201116AM&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"GetInvoiceStatus"
+											],
+											"query": [
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": -21967764,\n \"status_message\": \"veniam dolore sint proident ad\",\n \"trans_status\": \"irure enim ut Ut incididu\"\n}"
+								},
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/GetInvoiceStatus?order_id=022720201116AM&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"GetInvoiceStatus"
+											],
+											"query": [
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": -21967764,\n \"status_message\": \"veniam dolore sint proident ad\",\n \"trans_status\": \"irure enim ut Ut incididu\"\n}"
+								},
+								{
+									"name": "Bad Request",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/GetInvoiceStatus?order_id=022720201116AM&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"GetInvoiceStatus"
+											],
+											"query": [
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/GetInvoiceStatus?order_id=022720201116AM&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"GetInvoiceStatus"
+											],
+											"query": [
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/GetInvoiceStatus?order_id=022720201116AM&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"GetInvoiceStatus"
+											],
+											"query": [
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Method Not Allowed",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/GetInvoiceStatus?order_id=022720201116AM&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"GetInvoiceStatus"
+											],
+											"query": [
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Method Not Allowed",
+									"code": 405,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								}
+							]
+						},
+						{
+							"name": "To Reverse Invoice Payment.",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/MoMoCollection/ReverseInvoicePayment?order_id=022720201116AM&trans_ref_no=0123123321&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"MoMoCollection",
+										"ReverseInvoicePayment"
+									],
+									"query": [
+										{
+											"key": "order_id",
+											"value": "022720201116AM"
+										},
+										{
+											"key": "trans_ref_no",
+											"value": "0123123321"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								},
+								"description": "Sample request:\r\n            \r\n    POST /ReverseInvoicePayment\r\n    {\r\n       \"app_id\": \"your_app_id\",\r\n       \"app_key\": \"your_app_key\",\r\n       \"order_id\": \"022720201116AM\",   \r\n       \"trans_ref_no\":\"0123123321\"\r\n    }"
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/ReverseInvoicePayment?order_id=022720201116AM&trans_ref_no=0123123321&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"ReverseInvoicePayment"
+											],
+											"query": [
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "trans_ref_no",
+													"value": "0123123321"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": -82967857,\n \"status_message\": \"sit aliqua incididunt aliquip\"\n}"
+								},
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/ReverseInvoicePayment?order_id=022720201116AM&trans_ref_no=0123123321&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"ReverseInvoicePayment"
+											],
+											"query": [
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "trans_ref_no",
+													"value": "0123123321"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": -82967857,\n \"status_message\": \"sit aliqua incididunt aliquip\"\n}"
+								},
+								{
+									"name": "Bad Request",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/ReverseInvoicePayment?order_id=022720201116AM&trans_ref_no=0123123321&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"ReverseInvoicePayment"
+											],
+											"query": [
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "trans_ref_no",
+													"value": "0123123321"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/ReverseInvoicePayment?order_id=022720201116AM&trans_ref_no=0123123321&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"ReverseInvoicePayment"
+											],
+											"query": [
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "trans_ref_no",
+													"value": "0123123321"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/ReverseInvoicePayment?order_id=022720201116AM&trans_ref_no=0123123321&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"ReverseInvoicePayment"
+											],
+											"query": [
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "trans_ref_no",
+													"value": "0123123321"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								},
+								{
+									"name": "Method Not Allowed",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/MoMoCollection/ReverseInvoicePayment?order_id=022720201116AM&trans_ref_no=0123123321&app_id=ir&app_key=ir",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"MoMoCollection",
+												"ReverseInvoicePayment"
+											],
+											"query": [
+												{
+													"key": "order_id",
+													"value": "022720201116AM"
+												},
+												{
+													"key": "trans_ref_no",
+													"value": "0123123321"
+												},
+												{
+													"key": "app_id",
+													"value": "ir"
+												},
+												{
+													"key": "app_key",
+													"value": "ir"
+												}
+											]
+										}
+									},
+									"status": "Method Not Allowed",
+									"code": 405,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "One Time Approval Registeration",
+					"item": [
+						{
+							"name": "/api/OneTimeApprovalRegisteration/OTARequest",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"app_id\": \"Lorem consectetur\",\n    \"app_key\": \"sit\",\n    \"mobile\": \"id\",\n    \"network\": \"aliqua Ut adipisicing cillum consequat\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/OneTimeApprovalRegisteration/OTARequest",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"OneTimeApprovalRegisteration",
+										"OTARequest"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"app_id\": \"Lorem consectetur\",\n    \"app_key\": \"sit\",\n    \"mobile\": \"id\",\n    \"network\": \"aliqua Ut adipisicing cillum consequat\"\n}"
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/OneTimeApprovalRegisteration/OTARequest",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"OneTimeApprovalRegisteration",
+												"OTARequest"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": 57973824,\n \"status_message\": \"in\",\n \"message\": \"voluptate anim irure commodo\"\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/OneTimeApprovalRegisteration/GetOTAStatus",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"app_id\": \"Lorem consectetur\",\n    \"app_key\": \"sit\",\n    \"mobile\": \"id\",\n    \"network\": \"aliqua Ut adipisicing cillum consequat\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/OneTimeApprovalRegisteration/GetOTAStatus",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"OneTimeApprovalRegisteration",
+										"GetOTAStatus"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"app_id\": \"Lorem consectetur\",\n    \"app_key\": \"sit\",\n    \"mobile\": \"id\",\n    \"network\": \"aliqua Ut adipisicing cillum consequat\"\n}"
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/OneTimeApprovalRegisteration/GetOTAStatus",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"OneTimeApprovalRegisteration",
+												"GetOTAStatus"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"status_code\": 94855941,\n \"status_message\": \"enim esse fugiat elit\",\n \"mobilePreauthReqStatus\": \"tempor Ut ipsum\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "For Payment Processing.",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/PaymentProcessing/PaymentProcessing?name=shahzad&mobile=+233555515326&email=bahrian4394@gmail.com&Order_id=12345&currency=GHS&amount=1&order_desc=test&merClientAcct=12345&return_url=http://localhost:1410/Callback/ConfirmationCallback&app_id=ir&app_key=ir",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"PaymentProcessing",
+								"PaymentProcessing"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "shahzad"
+								},
+								{
+									"key": "mobile",
+									"value": "+233555515326"
+								},
+								{
+									"key": "email",
+									"value": "bahrian4394@gmail.com"
+								},
+								{
+									"key": "Order_id",
+									"value": "12345"
+								},
+								{
+									"key": "currency",
+									"value": "GHS"
+								},
+								{
+									"key": "amount",
+									"value": "1"
+								},
+								{
+									"key": "order_desc",
+									"value": "test"
+								},
+								{
+									"key": "merClientAcct",
+									"value": "12345"
+								},
+								{
+									"key": "return_url",
+									"value": "http://localhost:1410/Callback/ConfirmationCallback"
+								},
+								{
+									"key": "app_id",
+									"value": "ir"
+								},
+								{
+									"key": "app_key",
+									"value": "ir"
+								}
+							]
+						},
+						"description": "Sample request:\r\n            \r\n    POST /PaymentProcessing\r\n    {\r\n       \"app_id\": \"your_app_id\",\r\n       \"app_key\": \"your_app_key\",\r\n       \"name\": \"shahzad\",\r\n       \"mobile\": \"+233555515326\",\r\n       \"email\": \"bahrian4394@gmail.com\",\r\n       \"order_id\": \"12345\",\r\n       \"currency\": \"GHS\",\r\n        \"amount\": 1,\r\n        \"order_desc\": \"test\",\r\n        \"merClientAcct\": \"12345\",\r\n        \"return_url\": \"http://localhost:1410/Callback/ConfirmationCallback\"\r\n    }"
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/PaymentProcessing/PaymentProcessing?name=shahzad&mobile=+233555515326&email=bahrian4394@gmail.com&Order_id=12345&currency=GHS&amount=1&order_desc=test&merClientAcct=12345&return_url=http://localhost:1410/Callback/ConfirmationCallback&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"PaymentProcessing",
+										"PaymentProcessing"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "shahzad"
+										},
+										{
+											"key": "mobile",
+											"value": "+233555515326"
+										},
+										{
+											"key": "email",
+											"value": "bahrian4394@gmail.com"
+										},
+										{
+											"key": "Order_id",
+											"value": "12345"
+										},
+										{
+											"key": "currency",
+											"value": "GHS"
+										},
+										{
+											"key": "amount",
+											"value": "1"
+										},
+										{
+											"key": "order_desc",
+											"value": "test"
+										},
+										{
+											"key": "merClientAcct",
+											"value": "12345"
+										},
+										{
+											"key": "return_url",
+											"value": "http://localhost:1410/Callback/ConfirmationCallback"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"status_code\": -26092567,\n \"status_message\": \"est non consectetur Lorem deserunt\",\n \"trans_ref_no\": \"amet cupidatat\",\n \"redirect_url\": \"eu consectetur aliqua irure\"\n}"
+						},
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/PaymentProcessing/PaymentProcessing?name=shahzad&mobile=+233555515326&email=bahrian4394@gmail.com&Order_id=12345&currency=GHS&amount=1&order_desc=test&merClientAcct=12345&return_url=http://localhost:1410/Callback/ConfirmationCallback&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"PaymentProcessing",
+										"PaymentProcessing"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "shahzad"
+										},
+										{
+											"key": "mobile",
+											"value": "+233555515326"
+										},
+										{
+											"key": "email",
+											"value": "bahrian4394@gmail.com"
+										},
+										{
+											"key": "Order_id",
+											"value": "12345"
+										},
+										{
+											"key": "currency",
+											"value": "GHS"
+										},
+										{
+											"key": "amount",
+											"value": "1"
+										},
+										{
+											"key": "order_desc",
+											"value": "test"
+										},
+										{
+											"key": "merClientAcct",
+											"value": "12345"
+										},
+										{
+											"key": "return_url",
+											"value": "http://localhost:1410/Callback/ConfirmationCallback"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"status_code\": -26092567,\n \"status_message\": \"est non consectetur Lorem deserunt\",\n \"trans_ref_no\": \"amet cupidatat\",\n \"redirect_url\": \"eu consectetur aliqua irure\"\n}"
+						},
+						{
+							"name": "Bad Request",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/PaymentProcessing/PaymentProcessing?name=shahzad&mobile=+233555515326&email=bahrian4394@gmail.com&Order_id=12345&currency=GHS&amount=1&order_desc=test&merClientAcct=12345&return_url=http://localhost:1410/Callback/ConfirmationCallback&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"PaymentProcessing",
+										"PaymentProcessing"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "shahzad"
+										},
+										{
+											"key": "mobile",
+											"value": "+233555515326"
+										},
+										{
+											"key": "email",
+											"value": "bahrian4394@gmail.com"
+										},
+										{
+											"key": "Order_id",
+											"value": "12345"
+										},
+										{
+											"key": "currency",
+											"value": "GHS"
+										},
+										{
+											"key": "amount",
+											"value": "1"
+										},
+										{
+											"key": "order_desc",
+											"value": "test"
+										},
+										{
+											"key": "merClientAcct",
+											"value": "12345"
+										},
+										{
+											"key": "return_url",
+											"value": "http://localhost:1410/Callback/ConfirmationCallback"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/PaymentProcessing/PaymentProcessing?name=shahzad&mobile=+233555515326&email=bahrian4394@gmail.com&Order_id=12345&currency=GHS&amount=1&order_desc=test&merClientAcct=12345&return_url=http://localhost:1410/Callback/ConfirmationCallback&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"PaymentProcessing",
+										"PaymentProcessing"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "shahzad"
+										},
+										{
+											"key": "mobile",
+											"value": "+233555515326"
+										},
+										{
+											"key": "email",
+											"value": "bahrian4394@gmail.com"
+										},
+										{
+											"key": "Order_id",
+											"value": "12345"
+										},
+										{
+											"key": "currency",
+											"value": "GHS"
+										},
+										{
+											"key": "amount",
+											"value": "1"
+										},
+										{
+											"key": "order_desc",
+											"value": "test"
+										},
+										{
+											"key": "merClientAcct",
+											"value": "12345"
+										},
+										{
+											"key": "return_url",
+											"value": "http://localhost:1410/Callback/ConfirmationCallback"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/PaymentProcessing/PaymentProcessing?name=shahzad&mobile=+233555515326&email=bahrian4394@gmail.com&Order_id=12345&currency=GHS&amount=1&order_desc=test&merClientAcct=12345&return_url=http://localhost:1410/Callback/ConfirmationCallback&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"PaymentProcessing",
+										"PaymentProcessing"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "shahzad"
+										},
+										{
+											"key": "mobile",
+											"value": "+233555515326"
+										},
+										{
+											"key": "email",
+											"value": "bahrian4394@gmail.com"
+										},
+										{
+											"key": "Order_id",
+											"value": "12345"
+										},
+										{
+											"key": "currency",
+											"value": "GHS"
+										},
+										{
+											"key": "amount",
+											"value": "1"
+										},
+										{
+											"key": "order_desc",
+											"value": "test"
+										},
+										{
+											"key": "merClientAcct",
+											"value": "12345"
+										},
+										{
+											"key": "return_url",
+											"value": "http://localhost:1410/Callback/ConfirmationCallback"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+						},
+						{
+							"name": "Method Not Allowed",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/PaymentProcessing/PaymentProcessing?name=shahzad&mobile=+233555515326&email=bahrian4394@gmail.com&Order_id=12345&currency=GHS&amount=1&order_desc=test&merClientAcct=12345&return_url=http://localhost:1410/Callback/ConfirmationCallback&app_id=ir&app_key=ir",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"PaymentProcessing",
+										"PaymentProcessing"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "shahzad"
+										},
+										{
+											"key": "mobile",
+											"value": "+233555515326"
+										},
+										{
+											"key": "email",
+											"value": "bahrian4394@gmail.com"
+										},
+										{
+											"key": "Order_id",
+											"value": "12345"
+										},
+										{
+											"key": "currency",
+											"value": "GHS"
+										},
+										{
+											"key": "amount",
+											"value": "1"
+										},
+										{
+											"key": "order_desc",
+											"value": "test"
+										},
+										{
+											"key": "merClientAcct",
+											"value": "12345"
+										},
+										{
+											"key": "return_url",
+											"value": "http://localhost:1410/Callback/ConfirmationCallback"
+										},
+										{
+											"key": "app_id",
+											"value": "ir"
+										},
+										{
+											"key": "app_key",
+											"value": "ir"
+										}
+									]
+								}
+							},
+							"status": "Method Not Allowed",
+							"code": 405,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"type\": \"irure\",\n \"title\": \"in adipisicing\",\n \"status\": 41912277,\n \"detail\": \"ea voluptate\",\n \"instance\": \"incididunt ut\"\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}
